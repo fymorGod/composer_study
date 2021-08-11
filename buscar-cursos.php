@@ -3,8 +3,9 @@
     use GuzzleHttp\Client;
     use Symfony\Component\DomCrawler\Crawler as DomCrawlerCrawler;
     $client = new Client(['verify' => false]);
-
-    $response = $client->request('GET', 'https://www.alura.com.br/cursos-online-programacao/php');
+    $uri = 'https://www.alura.com.br/cursos-online-programacao/php';
+ 
+    $response = $client->request('GET', $uri);
     $html = $response->getBody();
     $crawler = new DomCrawlerCrawler();
 
