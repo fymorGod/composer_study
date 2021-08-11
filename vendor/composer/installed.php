@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'c2904e32e5ae3e4095eb832cbcb6187304eea03d',
         'name' => 'fylip/buscador-cursos',
         'dev' => true,
     ),
     'versions' => array(
         'fylip/buscador-cursos' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'c2904e32e5ae3e4095eb832cbcb6187304eea03d',
             'dev_requirement' => false,
         ),
         'guzzlehttp/guzzle' => array(
