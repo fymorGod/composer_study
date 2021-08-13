@@ -17,4 +17,6 @@
     foreach($cursos as $curso){
         echo $curso->textContent . PHP_EOL;
     }
+
+    
 ?>  
